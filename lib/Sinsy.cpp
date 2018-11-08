@@ -10,13 +10,6 @@
 #include "InputFile.h"
 #include "OutputFile.h"
 #include "WritableStrStream.h"
-#ifdef HAVE_HTS
-#include "LabelStream.h"
-#include "LabelStrings.h"
-#include "LabelMaker.h"
-#include "HtsEngine.h"
-#include "SynthConditionImpl.h"
-#endif
 #include "ScorePosition.h"
 #include "ScoreDoctor.h"
 #include "util_score.h"
@@ -295,9 +288,6 @@ void ScoreConverter::addNote(const Note& note)
  */
 SynthCondition::SynthCondition() : impl(NULL)
 {
-#ifdef HAVE_HTS
-   this->impl = new SynthConditionImpl();
-#endif
 }
 
 /*!
@@ -305,9 +295,6 @@ SynthCondition::SynthCondition() : impl(NULL)
  */
 SynthCondition::~SynthCondition()
 {
-#ifdef HAVE_HTS
-   delete this->impl;
-#endif
 }
 
 /*!
@@ -315,9 +302,6 @@ SynthCondition::~SynthCondition()
  */
 void SynthCondition::setPlayFlag()
 {
-#ifdef HAVE_HTS
-   this->impl->setPlayFlag();
-#endif
 }
 
 /*!
@@ -325,9 +309,6 @@ void SynthCondition::setPlayFlag()
  */
 void SynthCondition::unsetPlayFlag()
 {
-#ifdef HAVE_HTS
-   this->impl->unsetPlayFlag();
-#endif
 }
 
 /*!
@@ -335,9 +316,6 @@ void SynthCondition::unsetPlayFlag()
  */
 void SynthCondition::setSaveFilePath(const std::string& filePath)
 {
-#ifdef HAVE_HTS
-   this->impl->setSaveFilePath(filePath);
-#endif
 }
 
 /*!
@@ -345,9 +323,6 @@ void SynthCondition::setSaveFilePath(const std::string& filePath)
  */
 void SynthCondition::unsetSaveFilePath()
 {
-#ifdef HAVE_HTS
-   this->impl->unsetSaveFilePath();
-#endif
 }
 
 /*!
@@ -355,9 +330,6 @@ void SynthCondition::unsetSaveFilePath()
  */
 void SynthCondition::setWaveformBuffer(std::vector<double>& waveform)
 {
-#ifdef HAVE_HTS
-   this->impl->setWaveformBuffer(waveform);
-#endif
 }
 
 
@@ -366,9 +338,6 @@ void SynthCondition::setWaveformBuffer(std::vector<double>& waveform)
  */
 void SynthCondition::unsetWaveformBuffer()
 {
-#ifdef HAVE_HTS
-   this->impl->unsetWaveformBuffer();
-#endif
 }
 
 
@@ -388,9 +357,6 @@ public:
 
    //! load voice files
    bool loadVoices(const std::vector<std::string>& voices) {
-   #ifdef HAVE_HTS
-      return engine.load(voices);
-   #endif
    }
 
    //! set encoding
@@ -448,45 +414,6 @@ public:
       maker << score;
    }
 
-   #ifdef HAVE_HTS
-   //! set alpha for synthesis
-   bool setAlpha(double alpha) {
-      return engine.setAlpha(alpha);
-   }
-
-   //! set volume for synthesis
-   bool setVolume(double volume) {
-      return engine.setVolume(volume);
-   }
-
-   //! set interpolation weight for synthesis
-   bool setInterpolationWeight(size_t index, double weight) {
-      return engine.setInterpolationWeight(index, weight);
-   }
-
-   //! synthesize
-   bool synthesize(SynthConditionImpl& condition) {
-      LabelMaker labelMaker(converter);
-      labelMaker << score;
-      labelMaker.fix();
-      LabelStrings label;
-
-      labelMaker.outputLabel(label, false, 1, 2);
-
-      return engine.synthesize(label, condition);
-   }
-
-   //! stop synthesizing
-   void stop() {
-      engine.stop();
-   }
-
-   //! reset stop flag
-   void resetStopFlag() {
-      engine.resetStopFlag();
-   }
-   #endif
-
    //! clear score
    void clearScore() {
       score.clear();
@@ -535,12 +462,7 @@ private:
 
    //! converter
    Converter converter;
-   
-   #ifdef HAVE_HTS
 
-   //! hts_engine API
-   HtsEngine engine;
-   #endif
 };
 
 /*!
@@ -869,11 +791,7 @@ bool Sinsy::toScore(IScore& s) const
  */
 bool Sinsy::setAlpha(double alpha)
 {
-#ifdef HAVE_HTS
-   return impl->setAlpha(alpha);
-#else
    return false;
-#endif
 }
 
 /*!
@@ -881,11 +799,7 @@ bool Sinsy::setAlpha(double alpha)
  */
 bool Sinsy::setVolume(double volume)
 {
-#ifdef HAVE_HTS
-   return impl->setVolume(volume);
-#else
    return false;
-#endif   
 }
 
 /*!
@@ -893,11 +807,7 @@ bool Sinsy::setVolume(double volume)
  */
 bool Sinsy::setInterpolationWeight(size_t index, double weight)
 {
-#ifdef HAVE_HTS
-   return impl->setInterpolationWeight(index, weight);
-#else
    return false;
-#endif
 }
 
 /*!
@@ -905,19 +815,7 @@ bool Sinsy::setInterpolationWeight(size_t index, double weight)
  */
 bool Sinsy::synthesize(SynthCondition& condition)
 {
-#ifdef HAVE_HTS
-   try {
-      if (!impl->synthesize(*condition.impl)) {
-         return false;
-      }
-   } catch (const std::exception& ex) {
-      ERR_MSG("Exception in API " << FUNC_NAME("") << " : " << ex.what());
-      return false;
-   }
-   return true;
-#else
-  return false;
-#endif
+   return false;
 }
 
 
@@ -926,17 +824,7 @@ bool Sinsy::synthesize(SynthCondition& condition)
  */
 bool Sinsy::stop()
 {
-#ifdef HAVE_HTS
-   try {
-      impl->stop();
-   } catch (const std::exception& ex) {
-      ERR_MSG("Exception in API " << FUNC_NAME("") << " : " << ex.what());
-      return false;
-   }
-   return true;
-#else
    return false;
-#endif
 }
 
 
@@ -945,18 +833,7 @@ bool Sinsy::stop()
  */
 bool Sinsy::resetStopFlag()
 {
-#ifdef HAVE_HTS
-   try {
-      impl->resetStopFlag();
-   } catch (const std::exception& ex) {
-      ERR_MSG("Exception in API " << FUNC_NAME("") << " : " << ex.what());
-      return false;
-   }
-   return true;
-#else
     return false;
-#endif
-
 }
 
 
