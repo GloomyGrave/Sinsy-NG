@@ -47,7 +47,8 @@ add_library(sinsy SHARED
         lib/Sinsy.cpp
         )
   
-include_directories(lib/util lib/score lib/japanese lib/converter lib/temporary lib/xml/ lib/shm_ringbuffer/ include)
+include_directories(lib/util lib/score lib/japanese lib/converter lib/temporary lib/xml lib/shm_ringbuffer include)
+
 
 set (CMAKE_CXX_FLAGS "--std=gnu++11 ${CMAKE_CXX_FLAGS}")
 

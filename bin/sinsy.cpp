@@ -37,6 +37,7 @@ void usage()
     std::cout << "    sinsy [ options ] [ infile ]" << std::endl;
     std::cout << "  options:                                           [def]" << std::endl;
     std::cout << "    -w langs    : languages                          [ en]" << std::endl;
+    std::cout << "    -u Score File (*.sinsy)                          [N/A]" << std::endl;
     std::cout << "    -o file     : filename of output wav audio       [N/A]" << std::endl;
     std::cout << "  infile:" << std::endl;
     std::cout << "    MusicXML file" << std::endl;
