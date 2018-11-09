@@ -3,7 +3,7 @@ The Formant-Based All Language Singing Voice Syntheis System: Sinsy-NG
 
 <audio controls="controls">
   <source src="https://raw.githubusercontent.com/740291272/Sinsy-NG/master/testfile/test.wav" type="audio/wav" />
-Your browser does not support this audio format.
+Please to <a href="http://gloomyghost.com/Sinsy-NG/">project</a> page listen the demo!
 </audio>
 
 # How to use 
