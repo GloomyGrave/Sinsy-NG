@@ -1,6 +1,11 @@
 # Sinsy-NG
 The Formant-Based All Language Singing Voice Syntheis System: Sinsy-NG
 
+<audio controls="controls">
+  <source src="" type="audio/wav" />
+Your browser does not support this audio format.
+</audio>
+
 # How to use 
 
 ```bash
