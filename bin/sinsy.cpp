@@ -374,9 +374,6 @@ int main(int argc, char **argv)
         return -1;
     }
 
-
-
-
     ECantorix ecantorix;
     ecantorix.init();
     ecantorix.setVoiceByName(voice);
