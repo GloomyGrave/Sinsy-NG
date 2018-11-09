@@ -35,7 +35,8 @@ cmake ..
 make
 ```
 
-Licence
+# Licence
+
 ```
 ===============================================================================
        The HMM-Based Singing Voice Synthesis System "Sinsy" version 0.92
