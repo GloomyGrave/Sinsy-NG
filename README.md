@@ -8,7 +8,7 @@ The Formant-Based All Language Singing Voice Syntheis System: Sinsy-NG
     SinsyNG [ options ] [ infile ]
   options:                                           [def]
     -w langs    : languages                          [ en]
-    -u Score    : score File (*.sinsy)               [N/A]
+    -s Score    : score File (*.sinsy)               [N/A]
     -o file     : filename of output wav audio       [N/A]
   infile:
     MusicXML file
