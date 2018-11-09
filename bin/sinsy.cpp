@@ -34,7 +34,7 @@ void usage()
     std::cout << "              2015-2017 Reece H. Dunn" << std::endl;
     std::cout << "" << std::endl;
     std::cout << "  usage:" << std::endl;
-    std::cout << "    sinsy [ options ] [ infile ]" << std::endl;
+    std::cout << "    SinsyNG [ options ] [ infile ]" << std::endl;
     std::cout << "  options:                                           [def]" << std::endl;
     std::cout << "    -w langs    : languages                          [ en]" << std::endl;
     std::cout << "    -u Score File (*.sinsy)                          [N/A]" << std::endl;
