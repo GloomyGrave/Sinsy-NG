@@ -40,23 +40,9 @@ Licence
 ===============================================================================
        The HMM-Based Singing Voice Synthesis System "Sinsy" version 0.92
                            release December 25, 2015
-
-
-The Sinsy is an HMM-Based Singing Voice Synthesis System. It has been being
-developed by Sinsy working group (see "Who we are" below) and some graduate
-students in Nagoya Institute of Technology (see "AUTHORS" in the same
-directory).
-
 *******************************************************************************
                                     Copying
 *******************************************************************************
-
-The Sinsy is released under the Modified BSD license (see
-http://www.opensource.org/). Using and distributing this software is free
-(without restriction including without limitation the rights to use, copy,
-modify, merge, publish, distribute, sublicense, and/or sell copies of this
-work, and to permit persons to whom this work is furnished to do so) subject to
-the conditions in the following license:
 
 /* ----------------------------------------------------------------- */
 /*           The HMM-Based Singing Voice Synthesis System "Sinsy"    */
