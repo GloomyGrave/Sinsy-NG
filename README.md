@@ -6,6 +6,11 @@ The Formant-Based All Language Singing Voice Syntheis System: Sinsy-NG
 Please to <a href="http://gloomyghost.com/Sinsy-NG/">project</a> page listen the demo!
 </audio>
 
+# Discuss with us
+```
+QQ Group
+439181574
+```
 
 # How to use 
 
