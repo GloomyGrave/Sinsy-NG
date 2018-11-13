@@ -46,9 +46,14 @@ void usage()
 
 static int SynthCallback(short *wav, int numsamples, espeak_EVENT *events)
 {
-    //dummy
     return 0;
 }
+
+void ShowVoice(std::string& voicename)
+{
+    fprintf(stderr,"Voice: %s\n",voicename.c_str());
+}
+
 
 class ECantorix : public sinsy::IScore
 {
@@ -71,7 +76,6 @@ class ECantorix : public sinsy::IScore
         src_simple(&data,SRC_SINC_BEST_QUALITY,1);
         return ret;
     }
-
 
 public:
     ECantorix(){
@@ -350,17 +354,16 @@ int main(int argc, char **argv)
         }
     }
 
+    ShowVoice(voice);
+
     if(uscore.size()) {
         return handleUScore(uscore,wav);
     }
 
     if(xml.empty() || voice.empty() || wav.empty()) {
-
         usage();
         return -1;
     }
-
-
 
     sinsy::Sinsy sinsy;
 
