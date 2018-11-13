@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="Project" targetName="sinsy" />
+      <config projectName="Project" targetName="sinsyNG" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="711f85ce-27c6-4915-a941-615ba7375d8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Sinsy-NG.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/License" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/sinsy.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/Sinsy.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/converter/ConfGroup.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/converter/ConfManager.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/converter/Converter.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/converter/PhonemeInfo.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/converter/UnknownConf.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/converter/util_converter.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/hts_engine_API/SynthConditionImpl.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/japanese/JConf.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/label/LabelData.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/label/LabelMaker.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/label/LabelMeasure.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/label/LabelPosition.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/label/LabelStream.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/label/LabelStrings.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/label/NoteGroup.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/label/NoteLabeler.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/label/PhonemeLabeler.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/label/SyllableLabeler.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/score/Beat.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/score/Dynamics.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/score/Key.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/score/Mode.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/score/Note.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/score/Pitch.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/score/ScorePosition.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/score/Slur.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/score/Syllabic.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/score/util_score.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/shm_ringbuffer/ringbuffer.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/temporary/ScoreDoctor.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/temporary/TempScore.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/util/Configurations.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/util/DiphthongConverter.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/util/IStringable.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/util/InputFile.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/util/MacronTable.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/util/MultibyteCharRange.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/util/OutputFile.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/util/PhonemeTable.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/util/StringTokenizer.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/util/util_string.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/xml/XmlData.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/xml/XmlParser.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/xml/XmlReader.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/lib/xml/XmlWriter.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsy.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsyNG.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsyNG.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsyNG.dir/bin/sinsy.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsyNG.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsyNG.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsyNG.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsyNG.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsyNG.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsyNG.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sinsyNG.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/libsinsy.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/sinsyNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/espeak-ng/encoding.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/espeak-ng/espeak_ng.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/espeak-ng/speak_lib.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/sinsy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Sinsy.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/converter/ConfGroup.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/converter/ConfGroup.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/converter/ConfManager.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/converter/ConfManager.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/converter/Converter.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/converter/Converter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/converter/IConf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/converter/IConvertable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/converter/PhonemeInfo.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/converter/PhonemeInfo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/converter/UnknownConf.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/converter/UnknownConf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/converter/util_converter.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/converter/util_converter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hts_engine_API/SynthConditionImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hts_engine_API/SynthConditionImpl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/japanese/JConf.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/japanese/JConf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/label/ILabelOutput.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/label/INoteLabel.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/label/IPhonemeLabel.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/label/ISyllableLabel.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/label/LabelData.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/label/LabelData.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/label/LabelMaker.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/label/LabelMaker.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/label/LabelMeasure.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/label/LabelMeasure.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/label/LabelPosition.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/label/LabelPosition.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/label/LabelStream.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/label/LabelStream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/label/LabelStrings.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/label/LabelStrings.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/label/NoteGroup.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/label/NoteGroup.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/label/NoteLabeler.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/label/NoteLabeler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/label/PhonemeLabeler.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/label/PhonemeLabeler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/label/SyllableLabeler.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/label/SyllableLabeler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/score/Beat.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/score/Beat.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/score/Dynamics.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/score/Dynamics.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/score/IScoreWritable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/score/IScoreWriter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/score/Key.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/score/Key.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/score/Mode.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/score/Mode.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/score/Note.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/score/Note.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/score/Pitch.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/score/Pitch.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/score/ScorePosition.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/score/ScorePosition.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/score/Slur.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/score/Slur.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/score/Syllabic.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/score/Syllabic.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/score/util_score.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/score/util_score.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shm_ringbuffer/ringbuffer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shm_ringbuffer/ringbuffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shm_ringbuffer/test_ringbuffer_read.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shm_ringbuffer/test_ringbuffer_write.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/temporary/ScoreDoctor.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/temporary/ScoreDoctor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/temporary/TempScore.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/temporary/TempScore.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/util/Configurations.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/util/Configurations.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/util/Deleter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/util/DiphthongConverter.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/util/DiphthongConverter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/util/ForEachAdapter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/util/IReadableStream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/util/IStringable.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/util/IStringable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/util/IWritableStream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/util/InputFile.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/util/InputFile.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/util/MacronTable.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/util/MacronTable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/util/MultibyteCharRange.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/util/MultibyteCharRange.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/util/OutputFile.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/util/OutputFile.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/util/PhonemeTable.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/util/PhonemeTable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/util/StreamException.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/util/StringTokenizer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/util/StringTokenizer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/util/WritableStrStream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/util/util_log.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/util/util_string.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/util/util_string.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/util/util_types.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/xml/XmlData.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/xml/XmlData.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/xml/XmlParser.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/xml/XmlParser.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/xml/XmlReader.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/xml/XmlReader.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/xml/XmlWriter.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/xml/XmlWriter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/xml/xml_tags.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testfile/Test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testfile/Test2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testfile/Test3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testfile/Test4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testfile/c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testfile/e.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testfile/en.sinsy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testfile/j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testfile/test.sinsy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testfile/test.wav" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="-979050038">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cpp" value="1" />
+          <entry key="md" value="1" />
+          <entry key="sh" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Bash" value="1" />
+          <entry key="Markdown" value="1" />
+          <entry key="ObjectiveC" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.cidr.testingFrameworks.usages" />
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Markdown" value="2" />
+          <entry key="ObjectiveC" value="1" />
+          <entry key="PLAIN_TEXT" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="1" />
+          <entry key="md" value="2" />
+          <entry key="txt" value="8" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/push.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/lib/Sinsy.cpp" />
+        <option value="$PROJECT_DIR$/push.sh" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Sinsy-NG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sinsy-NG" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.sinsyNG">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sinsy" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="sinsy" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sinsyNG" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="sinsyNG" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="sinsyNG">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.sinsy" />
+      <item itemvalue="Application.sinsyNG" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="711f85ce-27c6-4915-a941-615ba7375d8b" name="Default Changelist" comment="" />
+      <created>1542118229114</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542118229114</updated>
+      <workItem from="1542118231110" duration="209000" />
+    </task>
+    <task id="LOCAL-00001" summary="add more">
+      <created>1542118400802</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542118400802</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="209000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23992674" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32959184" />
+      <window_info anchor="bottom" id="Messages" weight="0.32959184" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" weight="0.31428573" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add more" />
+    <option name="LAST_COMMIT_MESSAGE" value="add more" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/Sinsy.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5205">
+          <caret line="359" column="6" selection-start-line="359" selection-start-column="6" selection-end-line="359" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/push.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
