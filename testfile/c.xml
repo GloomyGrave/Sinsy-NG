@@ -121,7 +121,7 @@
         <beam number="1">begin</beam>
         <lyric default-y="-80" number="1">
           <syllabic>single</syllabic>
-          <text font-size="9.9">zhu4</text>
+          <text font-size="9.9">zhu</text>
         </lyric>
       </note>
       <note default-x="391">
@@ -137,7 +137,7 @@
         <beam number="2">backward hook</beam>
         <lyric default-y="-80" number="1">
           <syllabic>single</syllabic>
-          <text font-size="9.9">ni3</text>
+          <text font-size="9.9">ni</text>
         </lyric>
       </note>
     </measure>
@@ -154,7 +154,7 @@
         <stem default-y="-56">down</stem>
         <lyric default-y="-80" number="1" relative-x="10">
           <syllabic>single</syllabic>
-          <text font-size="9.9">sheng1</text>
+          <text font-size="9.9">sheng</text>
         </lyric>
       </note>
       <note default-x="92">
@@ -168,7 +168,7 @@
         <stem default-y="11">up</stem>
         <lyric default-y="-80" number="1">
           <syllabic>single</syllabic>
-          <text font-size="9.9">ri4</text>
+          <text font-size="9.9">ri</text>
         </lyric>
       </note>
       <note default-x="170">
@@ -182,7 +182,7 @@
         <stem default-y="-45.5">down</stem>
         <lyric default-y="-80" number="1">
           <syllabic>single</syllabic>
-          <text font-size="9.9">kuai4</text>
+          <text font-size="9.9">kuai</text>
         </lyric>
       </note>
       <note default-x="247">
@@ -197,7 +197,7 @@
         <stem default-y="-50.5">down</stem>
         <lyric default-y="-80" number="1">
           <syllabic>single</syllabic>
-          <text font-size="9.9">le4</text>
+          <text font-size="9.9">le</text>
         </lyric>
       </note>
     </measure>

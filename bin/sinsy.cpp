@@ -36,9 +36,10 @@ void usage()
     std::cout << "  usage:" << std::endl;
     std::cout << "    SinsyNG [ options ] [ infile ]" << std::endl;
     std::cout << "  options:                                           [def]" << std::endl;
-    std::cout << "    -w langs    : languages                          [ en]" << std::endl;
-    std::cout << "    -s Score    : Score File (*.sinsy)               [N/A]" << std::endl;
-    std::cout << "    -o file     : filename of output wav audio       [N/A]" << std::endl;
+    std::cout << "    -w langs      : languages                          [ en]" << std::endl;
+    std::cout << "    -s Score      : Score File (*.sinsy)               [N/A]" << std::endl;
+    std::cout << "    -o file       : filename of output wav audio       [N/A]" << std::endl;
+    std::cout << "    -m voice lang : languages of voice                 [N/A]" << std::endl;
     std::cout << "  infile:" << std::endl;
     std::cout << "    MusicXML file" << std::endl;
 }
@@ -313,8 +314,6 @@ int main(int argc, char **argv)
     std::string wav;
     std::string languages;
     std::string uscore;
-
-    voice = "en";
 
     int i(1);
     for(; i < argc; ++i) {
