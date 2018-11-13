@@ -19,7 +19,6 @@
 #include "PhonemeLabeler.h"
 #include "LabelData.h"
 #include "ILabelOutput.h"
-#include "SynthConditionImpl.h"
 
 namespace sinsy
 {
