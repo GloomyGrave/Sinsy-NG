@@ -169,7 +169,7 @@ public:
             tieLyrics="";
             inTie=false;
         }
-        //fprintf(stderr,"addNote %i [%s] pitch=%i accent=%i staccato=%i tieType=%i slurType=%i syllabicType=%i breath=%i\n",duration,lyric.c_str(),pitch,accent,staccato,tieType,slurType,syllabicType,breath);
+        //fprintf(stderr,"addNote %zu [%s] pitch=%zu accent=%i staccato=%i tieType=%lu slurType=%lu syllabicType=%lu breath=%i\n",duration,lyric.c_str(),pitch,accent,staccato,tieType,slurType,syllabicType,breath);
         return true;
     }
 
