@@ -19,9 +19,7 @@
 #include "PhonemeLabeler.h"
 #include "LabelData.h"
 #include "ILabelOutput.h"
-#ifdef HAVE_HTS
 #include "SynthConditionImpl.h"
-#endif
 
 namespace sinsy
 {
@@ -69,7 +67,7 @@ public:
    void fix();
 
    //! output label
-   void outputLabel(ILabelOutput& output, bool monophoneFlag = false, int overwriteEnableFlag = 0, int timeFlag = 0) const;
+   void outputLabel(ILabelOutput& output, bool monophoneFlag = false, int overwriteEnableFlag = 0, int timeFlag = 0, double startTime = 0.0) const;
 
 private:
    //! copy constructor (donot use)
@@ -177,7 +175,7 @@ private:
    bool moveToNextPhoneme(ConstNoteItr& nItr, ConstSyllableItr& sItr, ConstPhonemeItr& pItr, bool skipRests) const;
 
    //! set label data
-   void setLabelData(LabelData& label, const ConstNoteItr& noteItr, const ConstSyllableItr& syllableItr, const ConstPhonemeItr& phonemeItr, int overwriteEnableFlag, int timeFlag) const;
+   void setLabelData(LabelData& label, ConstNoteItr& noteItr, ConstSyllableItr& syllableItr, ConstPhonemeItr& phonemeItr, int overwriteEnableFlag, int timeFlag) const;
 
    //! apply stocks
    void applyStocks();
