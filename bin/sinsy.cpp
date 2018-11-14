@@ -346,9 +346,6 @@ int main(int argc, char **argv)
                 case 'h' :
                     usage();
                     return 0;
-                case 'help':
-                    usage();
-                    return 0;
                 default :
                     std::cout << "[ERROR] invalid option : '-" << argv[i][1] << "'" << std::endl;
                     usage();
