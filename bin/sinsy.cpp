@@ -36,7 +36,7 @@ void usage()
     std::cout << "  usage:" << std::endl;
     std::cout << "    SinsyNG [ options ] [ infile ]" << std::endl;
     std::cout << "  options:                                           [def]" << std::endl;
-    std::cout << "    -w langs      : languages                          [ en]" << std::endl;
+    std::cout << "    -w langs      : languages                          [N/A]" << std::endl;
     std::cout << "    -s Score      : Score File (*.sinsy)               [N/A]" << std::endl;
     std::cout << "    -o file       : filename of output wav audio       [N/A]" << std::endl;
     std::cout << "    -m voice lang : languages of voice                 [N/A]" << std::endl;
@@ -344,6 +344,9 @@ int main(int argc, char **argv)
                     uscore = argv[++i];
                     break;
                 case 'h' :
+                    usage();
+                    return 0;
+                case 'help':
                     usage();
                     return 0;
                 default :
