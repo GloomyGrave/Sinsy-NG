@@ -25,7 +25,7 @@ namespace
 void usage()
 {
     std::cout << "The Formant-Based Singing Voice Syntheis System \"SinsyNG\"" << std::endl;
-    std::cout << "Version 0.92 (http://sinsy.sourceforge.net/)" << std::endl;
+    std::cout << "Version 0.0.1 (http://sinsy.sourceforge.net/)" << std::endl;
     std::cout << "Copyright (C) 2009-2015 Nagoya Institute of Technology" << std::endl;
     std::cout << "All rights reserved." << std::endl;
     std::cout << "" << std::endl;
