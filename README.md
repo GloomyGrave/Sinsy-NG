@@ -48,7 +48,8 @@ Example:
 
 # How to make
 
-Sinsy NG needs `sinsy sndfile samplerate`,Please install them before you build.
+Sinsy NG needs `espeak-NG sndfile samplerate`,Please install them before you build.
+The espeak-NG for Singing can be found at [here](https://github.com/740291272/libespeak-NG)
 
 ```bash
 mkdir build

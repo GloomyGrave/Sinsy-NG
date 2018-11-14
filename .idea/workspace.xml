@@ -14,7 +14,7 @@
   <component name="ChangeListManager">
     <list default="true" id="711f85ce-27c6-4915-a941-615ba7375d8b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sinsy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sinsy.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +39,7 @@
         <counts>
           <entry key="cpp" value="4" />
           <entry key="h" value="1" />
-          <entry key="md" value="2" />
+          <entry key="md" value="3" />
           <entry key="sh" value="1" />
           <entry key="txt" value="1" />
           <entry key="wav" value="1" />
@@ -50,7 +50,7 @@
         <counts>
           <entry key="Bash" value="1" />
           <entry key="CMakeLists.txt" value="1" />
-          <entry key="Markdown" value="2" />
+          <entry key="Markdown" value="3" />
           <entry key="ObjectiveC" value="5" />
           <entry key="XML" value="3" />
         </counts>
@@ -60,16 +60,16 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="3" />
-          <entry key="Markdown" value="93" />
-          <entry key="ObjectiveC" value="148" />
-          <entry key="PLAIN_TEXT" value="63" />
+          <entry key="Markdown" value="155" />
+          <entry key="ObjectiveC" value="151" />
+          <entry key="PLAIN_TEXT" value="102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="148" />
-          <entry key="md" value="93" />
-          <entry key="txt" value="66" />
+          <entry key="cpp" value="151" />
+          <entry key="md" value="155" />
+          <entry key="txt" value="105" />
         </counts>
       </usages-collector>
     </session>
@@ -85,11 +85,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/sinsy.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="347" column="29" selection-start-line="347" selection-start-column="29" selection-end-line="347" selection-end-column="29" />
+            <state relative-caret-position="90">
+              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="178">
+                <caret line="51" column="49" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -106,8 +118,8 @@
         <option value="$PROJECT_DIR$/push.sh" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/testfile/c.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/bin/sinsy.cpp" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -206,7 +218,7 @@
       <updated>1542118229114</updated>
       <workItem from="1542118231110" duration="209000" />
       <workItem from="1542118572150" duration="2694000" />
-      <workItem from="1542205567703" duration="303000" />
+      <workItem from="1542205567703" duration="1220000" />
     </task>
     <task id="LOCAL-00001" summary="add more">
       <created>1542118400802</created>
@@ -250,11 +262,25 @@
       <option name="project" value="LOCAL" />
       <updated>1542123088919</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add show voice&#10;clean lib into lib">
+      <created>1542205994483</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1542205994483</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Clean version">
+      <created>1542206660458</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1542206660458</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3206000" />
+    <option name="totallyTimeSpent" value="4123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -265,7 +291,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -296,7 +322,9 @@
     <MESSAGE value="fix usage bug" />
     <MESSAGE value="fix usage bug&#10;fix voice bug" />
     <MESSAGE value="Add show voice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add show voice" />
+    <MESSAGE value="Add show voice&#10;clean lib into lib" />
+    <MESSAGE value="Clean version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean version" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lib/Sinsy.cpp">
@@ -323,16 +351,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="293">
-            <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testfile/e.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -352,8 +370,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/sinsy.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="347" column="29" selection-start-line="347" selection-start-column="29" selection-end-line="347" selection-end-column="29" />
+        <state relative-caret-position="90">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="178">
+            <caret line="51" column="49" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
