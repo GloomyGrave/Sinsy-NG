@@ -1,5 +1,3 @@
-/* Created by Ghost Gloomy on 2018/11/8. */
-
 #include "util_score.h"
 #include "IScoreWriter.h"
 #include "IScoreWritable.h"

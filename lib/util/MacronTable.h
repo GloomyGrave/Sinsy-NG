@@ -1,5 +1,3 @@
-/* Created by Ghost Gloomy on 2018/11/8. */
-
 #ifndef SINSY_MACRON_TABLE_H_
 #define SINSY_MACRON_TABLE_H_
 

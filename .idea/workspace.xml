@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Project" targetName="sinsyNG" />
-      <config projectName="Project" targetName="sinsy" />
+      <config projectName="Sinsy-NG" targetName="Sinsy" />
+      <config projectName="Sinsy-NG" targetName="SinsyNG" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -13,164 +13,159 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="711f85ce-27c6-4915-a941-615ba7375d8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Informations.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/SinsyNG.1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/SinsyNG.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/SinsyNG.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Sinsy.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Sinsy-NG.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sinsy.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/sinsy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Sinsy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Sinsy.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/converter/ConfGroup.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/converter/ConfGroup.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/converter/ConfGroup.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/converter/ConfGroup.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/converter/ConfManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/converter/ConfManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/converter/ConfManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/converter/ConfManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/converter/Converter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/converter/Converter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/converter/Converter.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/converter/Converter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/converter/IConf.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/converter/IConf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/converter/IConvertable.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/converter/IConvertable.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/converter/PhonemeInfo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/converter/PhonemeInfo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/converter/PhonemeInfo.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/converter/PhonemeInfo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/converter/UnknownConf.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/converter/UnknownConf.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/converter/UnknownConf.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/converter/UnknownConf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/hts_engine_API/SynthConditionImpl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/hts_engine_API/SynthConditionImpl.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/hts_engine_API/SynthConditionImpl.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/hts_engine_API/SynthConditionImpl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/japanese/JConf.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/japanese/JConf.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/japanese/JConf.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/japanese/JConf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/label/ILabelOutput.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/label/ILabelOutput.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/label/INoteLabel.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/label/INoteLabel.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/label/IPhonemeLabel.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/label/IPhonemeLabel.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/label/LabelData.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/label/LabelData.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/label/LabelMaker.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/label/LabelMaker.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/label/LabelMaker.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/label/LabelMaker.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/label/LabelMeasure.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/label/LabelMeasure.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/label/LabelMeasure.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/label/LabelMeasure.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/label/LabelPosition.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/label/LabelPosition.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/label/LabelPosition.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/label/LabelPosition.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/label/LabelStream.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/label/LabelStream.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/label/LabelStream.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/label/LabelStream.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/label/LabelStrings.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/label/LabelStrings.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/label/LabelStrings.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/label/LabelStrings.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/label/NoteGroup.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/label/NoteGroup.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/label/NoteGroup.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/label/NoteGroup.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/label/NoteLabeler.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/label/NoteLabeler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/label/PhonemeLabeler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/label/PhonemeLabeler.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/label/PhonemeLabeler.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/label/PhonemeLabeler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/label/SyllableLabeler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/label/SyllableLabeler.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/score/Beat.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/score/Beat.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/score/Beat.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/score/Beat.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/score/IScoreWriter.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/score/IScoreWriter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/score/Key.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/score/Key.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/score/Key.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/score/Key.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/score/Mode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/score/Mode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/score/Mode.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/score/Mode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/score/Note.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/score/Note.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/score/Note.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/score/Note.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/score/Pitch.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/score/Pitch.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/score/Pitch.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/score/Pitch.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/score/ScorePosition.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/score/ScorePosition.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/score/ScorePosition.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/score/ScorePosition.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/score/Slur.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/score/Slur.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/score/Slur.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/score/Slur.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/score/Syllabic.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/score/Syllabic.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/score/Syllabic.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/score/Syllabic.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/score/util_score.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/score/util_score.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/score/util_score.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/score/util_score.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/shm_ringbuffer/test_ringbuffer_read.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/shm_ringbuffer/test_ringbuffer_read.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/temporary/ScoreDoctor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/temporary/ScoreDoctor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/temporary/ScoreDoctor.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/temporary/ScoreDoctor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/temporary/TempScore.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/temporary/TempScore.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/temporary/TempScore.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/temporary/TempScore.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/util/Configurations.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/util/Configurations.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/util/Configurations.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/util/Configurations.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/util/Deleter.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/util/Deleter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/util/DiphthongConverter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/util/DiphthongConverter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/util/DiphthongConverter.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/util/DiphthongConverter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/util/ForEachAdapter.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/util/ForEachAdapter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/util/IReadableStream.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/util/IReadableStream.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/util/IStringable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/util/IStringable.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/util/IStringable.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/util/IStringable.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/util/IWritableStream.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/util/IWritableStream.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/util/InputFile.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/util/InputFile.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/util/InputFile.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/util/InputFile.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/util/MacronTable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/util/MacronTable.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/util/MacronTable.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/util/MacronTable.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/util/MultibyteCharRange.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/util/MultibyteCharRange.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/util/MultibyteCharRange.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/util/MultibyteCharRange.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/util/OutputFile.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/util/OutputFile.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/util/OutputFile.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/util/OutputFile.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/util/PhonemeTable.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/util/PhonemeTable.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/util/StreamException.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/util/StreamException.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/util/StringTokenizer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/util/StringTokenizer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/util/StringTokenizer.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/util/StringTokenizer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/util/WritableStrStream.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/util/WritableStrStream.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/util/util_log.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/util/util_log.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/util/util_string.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/util/util_string.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/util/util_string.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/util/util_string.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/util/util_types.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/util/util_types.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/xml/XmlData.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/xml/XmlData.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/xml/XmlData.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/xml/XmlData.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/xml/XmlParser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/xml/XmlParser.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/xml/XmlParser.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/xml/XmlParser.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/xml/XmlReader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/xml/XmlReader.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/xml/XmlReader.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/xml/XmlReader.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/xml/XmlWriter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/xml/XmlWriter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/xml/XmlWriter.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/xml/XmlWriter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/xml/xml_tags.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/xml/xml_tags.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/push.sh" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="FUSProjectUsageTrigger">
-    <session id="-979050038">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="cpp" value="4" />
-          <entry key="h" value="1" />
-          <entry key="md" value="3" />
-          <entry key="sh" value="1" />
-          <entry key="txt" value="1" />
-          <entry key="wav" value="1" />
-          <entry key="xml" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Bash" value="1" />
-          <entry key="CMakeLists.txt" value="1" />
-          <entry key="Markdown" value="3" />
-          <entry key="ObjectiveC" value="5" />
-          <entry key="XML" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages" />
-      <usages-collector id="statistics.cidr.testingFrameworks.usages" />
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CMakeLists.txt" value="3" />
-          <entry key="Markdown" value="155" />
-          <entry key="ObjectiveC" value="151" />
-          <entry key="PLAIN_TEXT" value="102" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="cpp" value="151" />
-          <entry key="md" value="155" />
-          <entry key="txt" value="105" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="730">
-              <caret line="56" column="37" lean-forward="true" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/sinsy.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="178">
-                <caret line="51" column="49" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/lib/Sinsy.cpp" />
-        <option value="$PROJECT_DIR$/push.sh" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/testfile/c.xml" />
-        <option value="$PROJECT_DIR$/bin/sinsy.cpp" />
-        <option value="$PROJECT_DIR$/README.md" />
-      </list>
-    </option>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="ivUyVqqj" />
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Sinsy-NG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sinsy-NG" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sinsy-NG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sinsy-NG" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sinsy-NG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sinsy-NG" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sinsy-NG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sinsy-NG" type="462c0819:PsiDirectoryNode" />
-              <item name="testfile" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1S9OchNSGgdWKTMJIHfFl1Wf4Md" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -184,26 +179,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.sinsyNG">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+  <component name="RunManager" selected="CMake Application.SinsyNG">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sinsy-NG" TARGET_NAME="SinsyNG" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sinsy-NG" RUN_TARGET_NAME="SinsyNG">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sinsy" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="sinsy" CONFIG_NAME="Debug">
+    <configuration name="Sinsy" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sinsy-NG" TARGET_NAME="Sinsy" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sinsyNG" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="sinsyNG" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="sinsyNG">
+    <configuration name="SinsyNG" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sinsy-NG" TARGET_NAME="SinsyNG" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sinsy-NG" RUN_TARGET_NAME="SinsyNG">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.sinsy" />
-      <item itemvalue="Application.sinsyNG" />
+      <item itemvalue="CMake Application.Build All" />
+      <item itemvalue="CMake Application.Sinsy" />
+      <item itemvalue="CMake Application.SinsyNG" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -219,6 +214,7 @@
       <workItem from="1542118231110" duration="209000" />
       <workItem from="1542118572150" duration="2694000" />
       <workItem from="1542205567703" duration="1220000" />
+      <workItem from="1570972434137" duration="4662000" />
     </task>
     <task id="LOCAL-00001" summary="add more">
       <created>1542118400802</created>
@@ -279,40 +275,19 @@
     <option name="localTasksCounter" value="9" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4123000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24603175" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32959184" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32959184" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32959184" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32959184" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.31428573" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -325,65 +300,5 @@
     <MESSAGE value="Add show voice&#10;clean lib into lib" />
     <MESSAGE value="Clean version" />
     <option name="LAST_COMMIT_MESSAGE" value="Clean version" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/Sinsy.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5205">
-          <caret line="359" column="6" selection-start-line="359" selection-start-column="6" selection-end-line="359" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/push.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/o.wav">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testfile/c.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="199" column="34" selection-start-line="199" selection-start-column="34" selection-end-line="199" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testfile/e.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/sinsy.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="61" column="6" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="730">
-          <caret line="56" column="37" lean-forward="true" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/sinsy.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="178">
-            <caret line="51" column="49" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

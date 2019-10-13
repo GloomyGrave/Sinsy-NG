@@ -1,5 +1,3 @@
-/* Created by Ghost Gloomy on 2018/11/8. */
-
 #ifndef SINSY_TEMP_SCORE_H_
 #define SINSY_TEMP_SCORE_H_
 

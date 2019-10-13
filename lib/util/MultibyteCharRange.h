@@ -1,5 +1,3 @@
-/* Created by Ghost Gloomy on 2018/11/8. */
-
 #ifndef SINSY_MULTIBYTE_CHAR_RANGE_H_
 #define SINSY_MULTIBYTE_CHAR_RANGE_H_
 

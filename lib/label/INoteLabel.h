@@ -1,5 +1,3 @@
-/* Created by Ghost Gloomy on 2018/11/8. */
-
 #ifndef SINSY_I_NOTE_LABEL_H_
 #define SINSY_I_NOTE_LABEL_H_
 

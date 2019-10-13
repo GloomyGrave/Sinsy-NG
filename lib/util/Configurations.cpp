@@ -1,5 +1,3 @@
-/* Created by Ghost Gloomy on 2018/11/8. */
-
 #include <fstream>
 #include "Configurations.h"
 #include "util_log.h"

@@ -1,5 +1,3 @@
-/* Created by Ghost Gloomy on 2018/11/8. */
-
 #ifndef SINSY_STREAM_EXCEPTION_H_
 #define SINSY_STREAM_EXCEPTION_H_
 

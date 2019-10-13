@@ -1,4 +1,10 @@
-add_library(sinsy SHARED
+cmake_minimum_required(VERSION 3.10)
+project(Sinsy-NG)
+
+
+# Sinsy library
+# TODO: Change to file search
+add_library(Sinsy SHARED
         lib/converter/ConfGroup.cpp
         lib/converter/ConfManager.cpp
         lib/converter/Converter.cpp
@@ -46,20 +52,27 @@ add_library(sinsy SHARED
         lib/shm_ringbuffer/ringbuffer.cpp
         lib/Sinsy.cpp
         )
-  
-include_directories(lib/util lib/score lib/japanese lib/converter lib/temporary lib/xml lib/shm_ringbuffer include)
 
+# Include Path Define
+include_directories(lib/
+        lib/util
+        lib/score
+        lib/japanese
+        lib/converter
+        lib/temporary
+        lib/xml
+        lib/shm_ringbuffer
+        )
 
 set (CMAKE_CXX_FLAGS "--std=gnu++11 ${CMAKE_CXX_FLAGS}")
-
 set (CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS}")
 
-add_executable(sinsyNG bin/sinsy.cpp)
-target_link_libraries(sinsyNG sinsy espeak-ng sndfile samplerate)
+add_executable(SinsyNG bin/SinsyNG.cpp bin/SinsyNG.h bin/Informations.cpp)
+# target_link_libraries(SinsyNG Sinsy espeak-ng sndfile samplerate)
 
-install(FILES include/sinsy.h lib/shm_ringbuffer/ringbuffer.h DESTINATION include/sinsy)
+install(FILES lib/Sinsy.h lib/shm_ringbuffer/ringbuffer.h DESTINATION include/sinsy)
 
-install(TARGETS sinsy sinsyNG
+install(TARGETS Sinsy SinsyNG
         LIBRARY DESTINATION lib/${CMAKE_ARCH_TRIPLET}
         RUNTIME DESTINATION bin
 )

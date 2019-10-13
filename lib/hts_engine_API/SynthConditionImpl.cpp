@@ -1,5 +1,3 @@
-/* Created by Ghost Gloomy on 2018/11/8. */
-
 #include <vector>
 #include <limits>
 #include <stdexcept>
