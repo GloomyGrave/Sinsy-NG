@@ -40,7 +40,9 @@ notifications:
         Message: [ {{message}} ]
         <br/>
     {{/failed}}
-    Commit: {{commitId}} by {{commitAuthor}} on {{commitDate}}<br/>
+    Commit: {{commitId}} <br/>
+    By: {{commitAuthor}}<br/>
+    On: {{commitDate}}<br/>
     Commit Message: {{commitMessage}}
     "
     on_build_status_changed: true
