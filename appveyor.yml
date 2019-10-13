@@ -1,5 +1,8 @@
 version: ci.0.0-{build}
 image: Ubuntu1804
+
+max_jobs: 1
+
 build:
   verbosity: minimal
 
@@ -15,3 +18,11 @@ before_build:
 
 build_script:
   - make
+
+notifications:
+  - provider: Email
+    to:
+      - gloomyghost@gloomyghost.com
+    subject: 'SinsyNG Build {{status}}'
+    message: "{{message}}, {{commitId}}, ..."
+    on_build_status_changed: true
