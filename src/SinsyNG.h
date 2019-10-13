@@ -13,8 +13,8 @@ public:
     };
 
 private:
-    const std::string DEFAULT_VOICE = "";
-    const std::string DEFAULT_LANG = "";
+    const std::string DEFAULT_VOICE = "Andy";
+    const std::string DEFAULT_LANG = "ja";
 };
 
 #endif //SINSY_NG_SINSYNG_H

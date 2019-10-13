@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 project(Sinsy-NG)
 
-
+set(CMAKE_CXX_STANDARD 14)
 # Sinsy library
 # TODO: Change to file search
 add_library(Sinsy SHARED
@@ -64,15 +64,6 @@ include_directories(lib/
         lib/shm_ringbuffer
         )
 
-set (CMAKE_CXX_FLAGS "--std=gnu++11 ${CMAKE_CXX_FLAGS}")
-set (CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS}")
-
-add_executable(SinsyNG bin/SinsyNG.cpp bin/SinsyNG.h bin/Informations.cpp)
+aux_source_directory(src SinsyNG_Src)
+add_executable(SinsyNG ${SinsyNG_Src})
 # target_link_libraries(SinsyNG Sinsy espeak-ng sndfile samplerate)
-
-install(FILES lib/Sinsy.h lib/shm_ringbuffer/ringbuffer.h DESTINATION include/sinsy)
-
-install(TARGETS Sinsy SinsyNG
-        LIBRARY DESTINATION lib/${CMAKE_ARCH_TRIPLET}
-        RUNTIME DESTINATION bin
-)
