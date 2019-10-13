@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 project(Sinsy-NG)
 
 set(CMAKE_CXX_STANDARD 14)
+
 # Sinsy library
 # TODO: Change to file search
 add_library(Sinsy SHARED

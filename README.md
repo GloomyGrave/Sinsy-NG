@@ -1,32 +1,10 @@
-# Sinsy-NG
-The Formant-Based All Language Singing Voice Syntheis System: Sinsy-NG
+<h1 align="center">Sinsy-NG</h1>
+<p align="center">The Formant-Based All Language Singing Voice Syntheis System: Sinsy-NG</p>
 
-My grandfather's clock (English):[XML](http://sinsy.sp.nitech.ac.jp/sample/song070_f00001_063.xml)
-<audio controls="controls">
-  <source src="https://raw.githubusercontent.com/740291272/Sinsy-NG/demo/demo/e.wav" type="audio/wav" />
-Please to <a href="http://github.gloomyghost.com/Sinsy-NG/">project</a> page listen the demo!
-</audio>
-
-げんこつ山のタヌキさん (Japanese):[XML](http://sinsy.sp.nitech.ac.jp/sample/song070_f00002_033.xml)
-<audio controls="controls">
-  <source src="https://raw.githubusercontent.com/740291272/Sinsy-NG/demo/demo/ja.wav" type="audio/wav" />
-</audio>
-
-祝你生日快乐 (Chinese):[XML](http://sinsy.sp.nitech.ac.jp/sample/csongdb_f00002_000.xml)
-<audio controls="controls">
-  <source src="https://raw.githubusercontent.com/740291272/Sinsy-NG/demo/demo/cn.wav" type="audio/wav" />
-</audio>
-
-Test：[Sinsy](https://raw.githubusercontent.com/740291272/Sinsy-NG/master/testfile/test.sinsy)
-<audio controls="controls">
-  <source src="https://raw.githubusercontent.com/740291272/Sinsy-NG/demo/demo/test.wav" type="audio/wav" />
-</audio>
-
-# Discuss with us
-```
-QQ Group
-439181574
-```
+|Branch|Linux|
+|---|---|
+|master|[![Build status](https://ci.appveyor.com/api/projects/status/l73cs9xmf52348i0/branch/master?svg=true)](https://ci.appveyor.com/project/GloomyGhost-MosquitoCoil/sinsy-ng/branch/master)|
+|dev|[![Build status](https://ci.appveyor.com/api/projects/status/l73cs9xmf52348i0/branch/dev?svg=true)](https://ci.appveyor.com/project/GloomyGhost-MosquitoCoil/sinsy-ng/branch/dev)|
 
 # How to use 
 

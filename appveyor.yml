@@ -1,0 +1,10 @@
+version: ci.0.0-{build}
+image: Ubuntu1804
+build:
+  verbosity: minimal
+before_build:
+  - sudo apt-get update
+  - sudo apt-get install git build-essential cmake -y
+  - cmake .
+build_script:
+  - make
