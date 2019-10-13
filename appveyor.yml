@@ -25,21 +25,22 @@ notifications:
       - gloomyghost@gloomyghost.com
     subject: '{{projectName}}: Build is {{status}}'
     message: "
-    {{projectName}} Build is {{status}}<br/>
     {{#passed}}
         <h1 style=\"font-size: 150%;font-weight:normal; color:#078DC7;\">
         <a href=\"{{buildUrl}}\" style=\"color:#078DC7;\">Build {{projectName}} {{buildVersion}} completed</a>
         </h1>
+        <img src=\"https://ci.appveyor.com/api/projects/status/l73cs9xmf52348i0?svg=true\"/>
         <br/>
     {{/passed}}
     {{#failed}}
         <h1 style=\"font-size: 150%;font-weight:normal; color:#ff3228;\">
         <a href=\"{{buildUrl}}\" style=\"color:#ff3228;\">Build {{projectName}} {{buildVersion}} failed</a>
         </h1>
+        <img src=\"https://ci.appveyor.com/api/projects/status/l73cs9xmf52348i0?svg=true\"/>
+        Message: [ {{message}} ]
         <br/>
     {{/failed}}
-    The Message is: {{message}} (NULL WHEN SUCCESS)<br/>
-    CommitID is: {{commitId}} by {{commitAuthor}} on {{commitDate}}<br/>
-    Commit Message is: {{commitMessage}}
+    Commit: {{commitId}} by {{commitAuthor}} on {{commitDate}}<br/>
+    Commit Message: {{commitMessage}}
     "
     on_build_status_changed: true
